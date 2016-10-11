@@ -1,0 +1,60 @@
+.wrapper {
+    padding: 51px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 480px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.context{
+    width: 100%;
+    color: #000;
+    float: none;
+}
+
+.content{
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+}
+
+.modal-container{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.content h1{
+    clear: both;
+    text-align: center;
+}
+
+
+
+@media (min-width: 640px) {
+    .context{
+        width: 100px;
+        float: right;
+    }
+
+    .content{
+        width: calc(100% - 100px);
+        float: left;
+    }
+}
+@media (min-width: 768px) {
+    .wrapper {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .wrapper {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 1024px;
+    }
+}
